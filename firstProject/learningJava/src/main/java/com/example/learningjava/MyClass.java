@@ -13,11 +13,24 @@ public class MyClass {
 
         if (iAmCool == true)
         {
-            System.out.println("This is true");
+            System.out.println("This is true\n");
         }
         else
         {
-            System.out.println("This is false!");
+            System.out.println("This is false!\n");
         }
+
+        String[] dogNames = new String[]{"Fido", "Charlie", "Koko", "Roxie", "Ruby"};
+        //System.out.println(dogNames[3]);
+
+        for (int i = 0; i < dogNames.length; i++)
+        {
+            sayHelloToDog(dogNames[i]);
+        }
+    }
+
+    public static void sayHelloToDog(String dogName)
+    {
+        System.out.println("Oh hai " + dogName);
     }
 }
