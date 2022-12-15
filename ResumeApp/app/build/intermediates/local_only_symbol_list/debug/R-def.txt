@@ -9,10 +9,12 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id button2
-id button3
+id callButton
+id emailButton
 id imageView
 id textView
+id textView3
+id textView4
 id workHistoryButton
 layout activity_main
 layout activity_work_history
